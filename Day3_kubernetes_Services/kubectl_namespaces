@@ -10,3 +10,4 @@ kubectl  delete  pods redis --namespace=finance (Delete a Pod from specific name
 kubectl  get pods --namespace=finance (List all pods from a specific namespace)
 kubectl get pods --all-namespaces | grep blue (List all pods from all namespace)
 kubectl  create namespace  ajais (Create a new namespace with ajais)
+kubectl -n kube-system get pods (To see all the required settings like scheduler and controllers are available)
